@@ -11,7 +11,7 @@ import java.util.List;
 
 @Entity
 @Getter
-public class Book extends AbstractEntity<ISBN> {
+public class Book extends AbstractEntity<ISBN> implements Item {
 
     @AttributeOverride(name = "title", column = @Column(name = "book_title"))
     protected ItemTitle title;

@@ -12,7 +12,7 @@ import mk.ukim.finki.emt.sharedkernel.domain.financial.Money;
 
 @Entity
 @Getter
-public class Magazine extends AbstractEntity<ISSN> {
+public class Magazine extends AbstractEntity<ISSN> implements Item {
 
     @AttributeOverride(name = "title", column = @Column(name = "magazine_title"))
     protected ItemTitle title;
