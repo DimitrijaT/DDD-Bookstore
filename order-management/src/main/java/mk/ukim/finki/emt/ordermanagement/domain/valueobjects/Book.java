@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Getter
-public class Book implements Item, ValueObject {
+public class Book implements ValueObject {
     private final ISBN id;
     private final ItemTitle title;
     private final TotalPages totalPages;
