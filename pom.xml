@@ -5,16 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>DDD-Bookstore</artifactId>
+    <artifactId>ddd-product-ordering</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <packaging>pom</packaging>
 
     <modules>
         <module>shared-kernel</module>
